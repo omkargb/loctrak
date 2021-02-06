@@ -25,7 +25,7 @@ function showPosition(position) {
 let lset = [
    [17.0628111, 73.6232525, "Devrukh bus stand"],
    [17.5252885, 73.5149865, "Chiplun bus stand"],
-   [17.5304121, 73.5161621, "Chiplun house"],
+   [17.5304121, 73.5161621, "Chinchnaka chiplun"],
    [16.9918477, 73.2955975, "Ratnagiri bus stand"],
    [17.1693533, 73.5341472, "Sangameshwar bus stand संगमेश्वर बसस्थानक "],
    //chiplun sangameshwar road
@@ -59,7 +59,7 @@ let lset = [
    [17.0449317, 73.5353780, "Nive निवे "],
    [17.0478320, 73.5260157, "Nagzari temple नागझरी मंदिर "],
    [17.0492591, 73.5134201, "Tulsani तुळसणी"],
-	[17.0464578, 73.5009572, "Wayangane fata वायंगणे फाटा "],
+   [17.0464578, 73.5009572, "Wayangane fata वायंगणे फाटा "],
    [17.0582892, 73.4922444, "Ghodavali fata घोडवली फाटा "],
    [17.0629210, 73.4745572, "Pangari mandir पांगरी "],
    //bavnadi ratnagiri road
