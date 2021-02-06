@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>tt</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/mylist.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body class="container" onload="getLocation()">
+        <br>
+        <form >
+	
+    <div class="row">
+	
+		<div class="col-6">
+			Latitude : <input class="form-control form-control-sm "  onchange="checkloc()"  id="curlat"  placeholder="Location latitude" value="" readonly>
+		</div>
+		<div class="col-6">
+			Longitude : <input class="form-control form-control-sm" onchange="checkloc()"   id="curlong"  placeholder="Location longitude" value="" readonly>
+		</div>
+		<br>
+	<br>
+		<div class="col-12 text-center">		
+		<hr>
+		<button type="button" onfocus="checkloc()"  class="btn btn-success btn-sm"> Get location </button>
+			<br>
+			<br>
+			<h5>Reached near : <span class=" h2 text-danger" readonly id="lstat"></span></h5> 
+    	</div>
+  
+	</form>
+
+    </div>
+
+	</body>
+</html>
+
