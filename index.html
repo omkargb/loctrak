@@ -23,10 +23,12 @@
     		<div class="card-header">
 		    <div class="row">
 	        	<div class="col-6">
-			Latitude : <input class="form-control form-control-sm p-1"  onchange="checkloc()"  id="curlat"  placeholder="Location latitude" value="" readonly>
+			<span class="p-1">Latitude : </span>
+				<input class="form-control form-control-sm"  onchange="checkloc()"  id="curlat"  placeholder="Location latitude" value="" readonly>
 			</div>
 			<div class="col-6">
-			Longitude : <input class="form-control form-control-sm p-1" onchange="checkloc()"   id="curlong"  placeholder="Location longitude" value="" readonly>
+			<span class="p-1">Longitude : </span>
+				<input class="form-control form-control-sm" onchange="checkloc()"   id="curlong"  placeholder="Location longitude" value="" readonly>
 			</div>
 			<button type="button" onclick="checkloc()"  id="showloc" class="btn btn-success invisible" > Get location </button>	
 		    </div>
