@@ -13,7 +13,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </head>
 
-<body class="container bg-light" onload="getLocation()">
+<body class="container" onload="getLocation()">
         <br>
         <form >
 	<span class="text-danger">* Please [ Allow ] location access permission, so that application works properly. </span>
@@ -23,10 +23,10 @@
     		<div class="card-header">
 		    <div class="row">
 	        	<div class="col-6">
-			Latitude : <input class="form-control form-control-sm "  onchange="checkloc()"  id="curlat"  placeholder="Location latitude" value="" readonly>
+			Latitude : <input class="form-control form-control-sm p-1"  onchange="checkloc()"  id="curlat"  placeholder="Location latitude" value="" readonly>
 			</div>
 			<div class="col-6">
-			Longitude : <input class="form-control form-control-sm" onchange="checkloc()"   id="curlong"  placeholder="Location longitude" value="" readonly>
+			Longitude : <input class="form-control form-control-sm p-1" onchange="checkloc()"   id="curlong"  placeholder="Location longitude" value="" readonly>
 			</div>
 			<button type="button" onclick="checkloc()"  id="showloc" class="btn btn-success invisible" > Get location </button>	
 		    </div>
