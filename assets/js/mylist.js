@@ -12,20 +12,21 @@ function showPosition(position) {
 	lt=position.coords.latitude;		lo=position.coords.longitude;
 	curlat.value= lt.toFixed(7);		curlong.value = lo.toFixed(7);
 
+	var clat = document.getElementById("curlat").value;	var clong = document.getElementById("curlong").value;
+	
+	setInterval(click, 2000);
+	function click()
+	{
+  		$("#showloc").click();
+	}
+	
 }
 
-setInterval(click, 5000);
-function click()
-{
-  $("#showloc").click();
-}
+
 
 	function checkloc(){
 		
-	var clat = document.getElementById("curlat").value;	var clong = document.getElementById("curlong").value;
-	
-
-////////////////////////////	if ( (Math.abs(clat-plat)<=2) && (Math.abs(clong-plong)<=2) ) 		// in +-2 range
+////////////////////////////	if ( (Math.abs(clat-plat)<=5) && (Math.abs(clong-plong)<=5) ) 		// in +-5 range
 	
 let lset = [
    [17.0628111, 73.6232525, "Devrukh bus stand"],
