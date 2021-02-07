@@ -16,7 +16,8 @@
 <body class="container" onload="getLocation()">
         <br>
         <form >
-	
+	<h6 class="text-danger">* Please [ Allow ] location access permission, so that application works properly. </h6>
+        <hr>
     <div class="row">
 	
 		<div class="col-6">
@@ -26,7 +27,7 @@
 			Longitude : <input class="form-control form-control-sm" onchange="checkloc()"   id="curlong"  placeholder="Location longitude" value="" readonly>
 		</div>
 		<br>
-	<br><h6 class="text-danger">* Please [ Allow ] location access permission, so that application works properly. </h6>
+	<br>
 		<div class="col-12 text-center">		
 		<hr>
 		<button type="button" onclick="checkloc()"  id="showloc" class="btn btn-success invisible" > Get location </button>
