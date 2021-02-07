@@ -14,6 +14,11 @@ function showPosition(position) {
 
 }
 
+setInterval(click, 5000);
+function click()
+{
+  $("#showloc").click();
+}
 
 	function checkloc(){
 		
