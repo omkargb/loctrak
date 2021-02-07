@@ -17,14 +17,15 @@ function showPosition(position) {
 	lt=position.coords.latitude;		lo=position.coords.longitude;
 	curlat.value= lt.toFixed(7);		curlong.value = lo.toFixed(7);
 
-	var clat = document.getElementById("curlat").value;	var clong = document.getElementById("curlong").value;
 	
 }
 
 	function checkloc(){
 		
 ////////////////////////////	if ( (Math.abs(clat-plat)<=5) && (Math.abs(clong-plong)<=5) ) 		// in +-5 range
-	
+	var clat = document.getElementById("curlat").value;	var clong = document.getElementById("curlong").value;
+
+		
 let lset = [
    [17.0628111, 73.6232525, "Devrukh bus stand"],
    [17.5252885, 73.5149865, "Chiplun bus stand"],
