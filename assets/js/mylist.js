@@ -1,4 +1,9 @@
-
+	setInterval(click, 3000);
+	function click()
+	{
+  		$("#showloc").click();
+	}
+	
 			  
 function getLocation() {
   if (navigator.geolocation) {
@@ -15,13 +20,6 @@ function showPosition(position) {
 	var clat = document.getElementById("curlat").value;	var clong = document.getElementById("curlong").value;
 	
 }
-
-	setInterval(click, 3000);
-	function click()
-	{
-  		$("#showloc").click();
-	}
-	
 
 	function checkloc(){
 		
