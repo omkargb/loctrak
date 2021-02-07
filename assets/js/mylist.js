@@ -14,15 +14,14 @@ function showPosition(position) {
 
 	var clat = document.getElementById("curlat").value;	var clong = document.getElementById("curlong").value;
 	
-	setInterval(click, 2000);
+}
+
+	setInterval(click, 3000);
 	function click()
 	{
   		$("#showloc").click();
 	}
 	
-}
-
-
 
 	function checkloc(){
 		
