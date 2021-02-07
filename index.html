@@ -19,8 +19,7 @@
 	<span class="text-danger">* Please [ Allow ] location access permission, so that application works properly. </span>
         <hr>
 	    
-	    <div class="card">
-
+	   <div class="card row">
     		<div class="card-body">
 	        	<div class="col-6">
 			Latitude : <input class="form-control form-control-sm "  onchange="checkloc()"  id="curlat"  placeholder="Location latitude" value="" readonly>
@@ -28,18 +27,15 @@
 			<div class="col-6">
 			Longitude : <input class="form-control form-control-sm" onchange="checkloc()"   id="curlong"  placeholder="Location longitude" value="" readonly>
 			</div>
-		<button type="button" onclick="checkloc()"  id="showloc" class="btn btn-success invisible" > Get location </button>			
+			<button type="button" onclick="checkloc()"  id="showloc" class="btn btn-success invisible" > Get location </button>			
     		</div>
-		    
     		<div class="card-header">
         		<div class="col-12 text-center">		
-				<h5 class="bg-white p-1">Reached near : <span class="h4 text-success" id="lstat"></span></h5> 
+				Reached near : <span class="h4 text-success" id="lstat"></span>
     			</div>
     		</div>		    
-	   </div>
-	    
+	   </div>	    
 	</form>
-
-	</body>
+</body>
 </html>
 
