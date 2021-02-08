@@ -80,7 +80,7 @@ for (let i = 0; i < lset.length ; i++) 		//no of locations
 {
    for (let j = 0; j < 3; j++) 	//no of properties
    {
-		if((Math.abs(clat-(lset[i][j]))<=0.003) && (Math.abs(clong-(lset[i][j+1]))<=0.003))
+		if((Math.abs(clat-(lset[i][j]))<=0.00400) && (Math.abs(clong-(lset[i][j+1]))<=0.00400))
 		{
 			var temploc=lset[i][j+2];
 
@@ -90,7 +90,7 @@ for (let i = 0; i < lset.length ; i++) 		//no of locations
 		else
 		{
 			
-			console.log("--");
+			//console.log("--");
 		}
    }
 }
