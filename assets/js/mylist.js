@@ -89,7 +89,7 @@ for (let i = 0; i < lset.length ; i++) 		//no of locations
 		} 
 		else
 		{
-			//document.getElementById("lstat").value = "";
+			document.getElementById("lstat").innerHTML = "--";
 			console.log("--");
 		}
    }
