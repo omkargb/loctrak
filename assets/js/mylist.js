@@ -1,4 +1,4 @@
-	setInterval(click, 3000);
+	setInterval(click, 2000);
 	function click()
 	{
   		$("#showloc").click();
@@ -15,7 +15,7 @@ function getLocation() {
 
 function showPosition(position) {
 	lt=position.coords.latitude;		lo=position.coords.longitude;
-	curlat.value= lt.toFixed(7);		curlong.value = lo.toFixed(7);
+	curlat.value= lt.toFixed(6);		curlong.value = lo.toFixed(6);
 
 	
 }
@@ -80,7 +80,7 @@ for (let i = 0; i < lset.length ; i++) 		//no of locations
 {
    for (let j = 0; j < 3; j++) 	//no of properties
    {
-		if((Math.abs(clat-(lset[i][j]))<=0.0005000) && (Math.abs(clong-(lset[i][j+1]))<=0.0005000))
+		if((Math.abs(clat-(lset[i][j]))<=0.001000) && (Math.abs(clong-(lset[i][j+1]))<=0.001000))
 		{
 			var temploc=lset[i][j+2];
 
