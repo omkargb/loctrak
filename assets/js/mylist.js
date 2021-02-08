@@ -15,7 +15,7 @@ function getLocation() {
 
 function showPosition(position) {
 	lt=position.coords.latitude;		lo=position.coords.longitude;
-	curlat.value= lt.toFixed(6);		curlong.value = lo.toFixed(6);
+	curlat.value= lt.toFixed(5);		curlong.value = lo.toFixed(5);
 
 	
 }
@@ -80,7 +80,7 @@ for (let i = 0; i < lset.length ; i++) 		//no of locations
 {
    for (let j = 0; j < 3; j++) 	//no of properties
    {
-		if((Math.abs(clat-(lset[i][j]))<=0.001000) && (Math.abs(clong-(lset[i][j+1]))<=0.001000))
+		if((Math.abs(clat-(lset[i][j]))<=0.005) && (Math.abs(clong-(lset[i][j+1]))<=0.005))
 		{
 			var temploc=lset[i][j+2];
 
