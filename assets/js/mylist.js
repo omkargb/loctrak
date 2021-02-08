@@ -22,7 +22,7 @@ function showPosition(position) {
 
 	function checkloc(){
 		
-////////////////////////////	if ( (Math.abs(clat-plat)<=5) && (Math.abs(clong-plong)<=5) ) 		// in +-5 range
+////////////////////////////	if ( (Math.abs(clat-plat)<=3) && (Math.abs(clong-plong)<=3) ) 		// in +-5 range
 	var clat = document.getElementById("curlat").value;	var clong = document.getElementById("curlong").value;
 
 		
@@ -80,7 +80,7 @@ for (let i = 0; i < lset.length ; i++) 		//no of locations
 {
    for (let j = 0; j < 3; j++) 	//no of properties
    {
-		if((Math.abs(clat-(lset[i][j]))<=0.005) && (Math.abs(clong-(lset[i][j+1]))<=0.005))
+		if((Math.abs(clat-(lset[i][j]))<=0.003) && (Math.abs(clong-(lset[i][j+1]))<=0.003))
 		{
 			var temploc=lset[i][j+2];
 
